@@ -1,0 +1,22 @@
+package sample;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+public class RegApplication extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        FXMLLoader fxmlLoader1 = new FXMLLoader(RegApplication.class.getResource("registration.fxml"));
+        Scene scene = new Scene(fxmlLoader1.load(), 700, 400);
+        stage.setTitle("");
+        stage.setScene(scene);
+        stage.show();
+    }
+    public static void main(String[] args) {
+        launch();
+    }
+}

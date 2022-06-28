@@ -1,0 +1,89 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch task_4",
+            "request": "launch",
+            "mainClass": "lab3.task_4",
+            "projectName": "java_afa2c0da"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_1",
+            "request": "launch",
+            "mainClass": "lab5.task_1",
+            "projectName": "java_3b93dbad"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Attach to Remote Program",
+            "request": "attach",
+            "hostName": "<The host name or ip address of remote debuggee>",
+            "port": "<debug port of remote debuggee>"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch NSD",
+            "request": "launch",
+            "mainClass": "freelance.NSD",
+            "projectName": "java_3b93dbad"
+        },
+        {
+            "type": "java",
+            "name": "Launch mf",
+            "request": "launch",
+            "mainClass": "freelance.mf",
+            "projectName": "java_3b93dbad"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_1",
+            "request": "launch",
+            "mainClass": "task_1",
+            "projectName": "java_3b93dbad"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_2",
+            "request": "launch",
+            "mainClass": "task_2",
+            "projectName": "java_3b93dbad"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_3",
+            "request": "launch",
+            "mainClass": "task_3",
+            "projectName": "java_3b93dbad"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_5",
+            "request": "launch",
+            "mainClass": "task_5",
+            "projectName": "java_3b93dbad"
+        }
+    ]
+}
